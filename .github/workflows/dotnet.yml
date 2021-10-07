@@ -17,6 +17,9 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 6.0.100-rc.2.21505.1
+    - run: |
+        dotnet workload update --from-rollback-file https://aka.ms/dotnet/maui/preview.9.json  --source https://aka.ms/dotnet6/nuget/index.json
+        dotnet workload install maui --skip-manifest-update --source https://aka.ms/dotnet6/nuget/index.json
     - name: Build
       run: dotnet build
     - name: Test
