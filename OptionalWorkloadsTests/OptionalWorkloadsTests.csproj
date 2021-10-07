@@ -5,7 +5,7 @@
 		<Nullable>enable</Nullable>
 		<UseMaui>true</UseMaui>
 		<IsPackable>false</IsPackable>
-		<MauiVersion>6.0.101-preview.9.1843</MauiVersion>
+		<!-- <MauiVersion>6.0.101-preview.9.1843</MauiVersion> -->
 	</PropertyGroup>
 
 	<ItemGroup>
