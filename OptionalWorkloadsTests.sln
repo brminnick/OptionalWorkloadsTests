@@ -3,12 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31805.293
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionalWorkloadsTests", "OptionalWorkloadsTests\OptionalWorkloadsTests.csproj", "{BF0D2EDD-F557-43CB-B27F-B4E8579AE103}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OptionalWorkloadsTests", "OptionalWorkloadsTests\OptionalWorkloadsTests.csproj", "{BF0D2EDD-F557-43CB-B27F-B4E8579AE103}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{828E5341-9777-49AC-A5B5-BFF4DDE25981}"
 	ProjectSection(SolutionItems) = preProject
 		nuget.config = nuget.config
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{1242E348-4787-49AE-AD5C-A5B6B184E711}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +22,10 @@ Global
 		{BF0D2EDD-F557-43CB-B27F-B4E8579AE103}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF0D2EDD-F557-43CB-B27F-B4E8579AE103}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF0D2EDD-F557-43CB-B27F-B4E8579AE103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1242E348-4787-49AE-AD5C-A5B6B184E711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1242E348-4787-49AE-AD5C-A5B6B184E711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1242E348-4787-49AE-AD5C-A5B6B184E711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1242E348-4787-49AE-AD5C-A5B6B184E711}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

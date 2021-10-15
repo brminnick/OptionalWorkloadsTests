@@ -3,8 +3,8 @@
 	<PropertyGroup>
 		<TargetFramework>net6.0</TargetFramework>
 		<Nullable>enable</Nullable>
-		<UseMaui>true</UseMaui>
 		<IsPackable>false</IsPackable>
+		<UseMaui>true</UseMaui>
 		<!-- <MauiVersion>6.0.101-preview.9.1843</MauiVersion> -->
 	</PropertyGroup>
 
